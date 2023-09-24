@@ -11,7 +11,7 @@ const Projects = () => {
         tools:"Technology used :-",
         technology:"React js, Tailwindcss,React-Router-Dom, Redux, Context Api, Firebase, Razorpay",
       photo: "/src/assets/projects/img1.png",
-      // button:`${<a href="https://merajalam-07.github.io/Todo-App/"></a>}`,
+    
     },
    
     {
@@ -21,7 +21,7 @@ const Projects = () => {
         tools:"Technology used :-",
         technology:"React js, CustomHook,React-heroicons ",
       photo: "/src/assets/projects/img3.png" ,
-      // button:`"<a href="https://merajalam-07.github.io/Todo-App/"></a>"`,
+     
    
     },
     {
@@ -31,7 +31,7 @@ const Projects = () => {
         tools:"Technology used :-",
         technology:"React js, Axios, Random Api,  Joe Schome Api,  React loading Skeleton",
       photo: "/src/assets/projects/img2.png",
-      // button:`${<a href="https://merajalam-07.github.io/skeletion-api-loading/"></a>}`,
+     
      
     },
   ];
@@ -70,18 +70,9 @@ const Projects = () => {
                 {project.tools}
               </h5>
               <p className=" text-white mt-1">{project.technology}</p>
-              {/* <a href={project.button}
-                target="_blank"
-                rel="noreferrer"  >
-                <button className="btn outline py-1.5 px-9 rounded border-none mt-5 ml-5 text-white " >
-                  Live Project
-                </button>
-                
-                </a> */}
+             
               <div className="mt-5  flex items-center" >
-                {/* <button className="btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary">
-                  About me
-                </button> */}
+             
                  <button className="btn outline py-1.5 px-9 rounded border-none  ml-5 text-white " >
                   Live Project
                 </button>
