@@ -76,10 +76,6 @@ const Projects = () => {
                  <button className="btn outline py-1.5 px-9 rounded border-none  ml-5 text-white " >
                   Live Project
                 </button>
-
-               
-                
-                
               </div>
             </div>
           );
