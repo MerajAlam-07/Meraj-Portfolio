@@ -52,14 +52,9 @@ const Projects = () => {
               key={index}
               className="flex flex-col shadow-sm md:w-[343px] bg-[#31313F] p-4 rounded"
             >
-              <a
-                href={project.photo}
-                target="_blank"
-                rel="noreferrer"
-                className="mb-4"
-              >
+            
                 <img src={project.photo} alt={project.title} />
-              </a>
+            
               <h3 className="text-primary font-semibold text-lg">
                 {project.title}
               </h3>
