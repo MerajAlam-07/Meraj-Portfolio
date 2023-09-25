@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Projects = () => {
 
   const [url,setUrl]=useState({
-    
+
   })
   const projects = [
     {
@@ -12,7 +12,7 @@ const Projects = () => {
       tools: "Technology used :-",
       technology:
         "React js, Tailwindcss,React-Router-Dom, Redux, Context Api, Firebase, Razorpay",
-      photo: "src/assets/projects/img1.PNG",
+      photo: "src/assets/projects/img1.png",
        
       
     },
@@ -23,7 +23,7 @@ const Projects = () => {
         "React Todo App project  include full CRUD functionality: create, read, update, and delete with LocalStorage.",
       tools: "Technology used :-",
       technology: "React js, CustomHook,React-heroicons ",
-      photo: "src/assets/projects/img3.PNG",
+      photo: "src/assets/projects/img3.png",
     },
     {
       title: "Lazy loading",
@@ -31,7 +31,7 @@ const Projects = () => {
       tools: "Technology used :-",
       technology:
         "React js, Axios, Random Api,  Joe Schome Api,  React loading Skeleton",
-      photo: "src/assets/projects/img2.PNG",
+      photo: "src/assets/projects/img2.png",
     },
   ];
 
@@ -61,7 +61,7 @@ const Projects = () => {
                 rel="noreferrer"
                 className="mb-4"
               >
-                <img src={project.photo} alt="" />
+                <img src={project.photo} alt={project.photo} />
               </a>
               <h3 className="text-primary font-semibold text-lg">
                 {project.title}
