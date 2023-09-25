@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Projects = () => {
 
-  const [url,setUrl]=useState({
-
-  })
   const projects = [
     {
       title: "E-commerce",
@@ -12,7 +9,7 @@ const Projects = () => {
       tools: "Technology used :-",
       technology:
         "React js, Tailwindcss,React-Router-Dom, Redux, Context Api, Firebase, Razorpay",
-      photo: "src/assets/projects/img1.png",
+      photo: "/src/assets/projects/ecart.png",
        
       
     },
@@ -23,7 +20,7 @@ const Projects = () => {
         "React Todo App project  include full CRUD functionality: create, read, update, and delete with LocalStorage.",
       tools: "Technology used :-",
       technology: "React js, CustomHook,React-heroicons ",
-      photo: "src/assets/projects/img3.png",
+      photo: "/src/assets/projects/todo.png",
     },
     {
       title: "Lazy loading",
@@ -31,7 +28,7 @@ const Projects = () => {
       tools: "Technology used :-",
       technology:
         "React js, Axios, Random Api,  Joe Schome Api,  React loading Skeleton",
-      photo: "src/assets/projects/img2.png",
+      photo: "/src/assets/projects/lazy.png",
     },
   ];
 
@@ -61,7 +58,7 @@ const Projects = () => {
                 rel="noreferrer"
                 className="mb-4"
               >
-                <img src={project.photo} alt={project.photo} />
+                <img src={project.photo} alt={project.title} />
               </a>
               <h3 className="text-primary font-semibold text-lg">
                 {project.title}
