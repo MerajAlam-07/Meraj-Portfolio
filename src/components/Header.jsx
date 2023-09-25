@@ -1,15 +1,15 @@
-import React,{ useState }  from "react";
+import React, { useState } from "react";
 import {
-  BookOpenIcon,
   Bars3BottomRightIcon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
-import {  Link, ScrollLink } from "react-scroll";
+import { Link, ScrollLink } from "react-scroll";
 
 const Header = () => {
   let Links = [
     { name: "Home", link: "home" },
     { name: "About me", link: "about" },
+    { name: "Skills", link: "skills" },
     { name: "Projects", link: "projects" },
     { name: "Contact", link: "contact" },
   ];

@@ -15,9 +15,9 @@ const Footer = () => {
       </div>
                        {/* social media */} 
 
-      {/* <div className="flex mb-5 justify-center md:justify-start ">
+      <div className="flex mb-5 justify-center md:justify-start ">
         <a
-          href="https://www.linkedin.com/in/joshua-harris-321a24190/"
+          href=""
           target="_blank"
           rel="noreferrer"
         >
@@ -25,7 +25,7 @@ const Footer = () => {
         </a>
         <a
           className="ml-4"
-          href="https://github.com/joshua-harris"
+          href=""
           target="_blank"
           rel="noreferrer"
         >
@@ -33,7 +33,7 @@ const Footer = () => {
         </a>
         <a
           className="ml-4"
-          href="mailto:anpch@example.com"
+          href=""
           target="_blank"
           rel="noreferrer"
         >
@@ -47,7 +47,7 @@ const Footer = () => {
         >
           <img src={email} alt="" />
         </a>
-      </div> */}
+      </div>
     </div>
   );
 };

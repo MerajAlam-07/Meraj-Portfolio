@@ -1,40 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Projects = () => {
 
-
+  const [url,setUrl]=useState({
+    
+  })
   const projects = [
     {
       title: "E-commerce",
-      description:
-        "A online shopping app .",
-        tools:"Technology used :-",
-        technology:"React js, Tailwindcss,React-Router-Dom, Redux, Context Api, Firebase, Razorpay",
-      photo: "/src/assets/projects/img1.png",
-    
+      description: "A online shopping app with payment integration.",
+      tools: "Technology used :-",
+      technology:
+        "React js, Tailwindcss,React-Router-Dom, Redux, Context Api, Firebase, Razorpay",
+      photo: "src/assets/projects/img1.PNG",
+       
+      
     },
-   
+
     {
       title: "Todo App",
       description:
         "React Todo App project  include full CRUD functionality: create, read, update, and delete with LocalStorage.",
-        tools:"Technology used :-",
-        technology:"React js, CustomHook,React-heroicons ",
-      photo: "/src/assets/projects/img3.png" ,
-     
-   
+      tools: "Technology used :-",
+      technology: "React js, CustomHook,React-heroicons ",
+      photo: "src/assets/projects/img3.PNG",
     },
     {
       title: "Lazy loading",
-      description:
-        "Skeletion-Api-Loading",
-        tools:"Technology used :-",
-        technology:"React js, Axios, Random Api,  Joe Schome Api,  React loading Skeleton",
-      photo: "/src/assets/projects/img2.png",
-     
-     
+      description: "Skeletion-Api-Loading",
+      tools: "Technology used :-",
+      technology:
+        "React js, Axios, Random Api,  Joe Schome Api,  React loading Skeleton",
+      photo: "src/assets/projects/img2.PNG",
     },
   ];
+
+ 
   return (
     <div className="md:px-10 px-7 my-8" id="projects">
       <h1 className="text-primary font-semibold text-3xl mt-16">
@@ -60,7 +61,7 @@ const Projects = () => {
                 rel="noreferrer"
                 className="mb-4"
               >
-                <img src={project.photo} alt={project.href} />
+                <img src={project.photo} alt="" />
               </a>
               <h3 className="text-primary font-semibold text-lg">
                 {project.title}
@@ -70,12 +71,15 @@ const Projects = () => {
                 {project.tools}
               </h5>
               <p className=" text-white mt-1">{project.technology}</p>
-             
-              <div className="mt-5  flex items-center" >
-             
-                 <button className="btn outline py-1.5 px-9 rounded border-none  ml-5 text-white " >
-                  Live Project
-                </button>
+
+            
+
+              <div className="mt-5  flex items-center">  
+              <button className="btn outline py-1.5 px-9 rounded border-none  ml-5 text-white " >
+              
+              Live Project
+            </button>
+               
               </div>
             </div>
           );
