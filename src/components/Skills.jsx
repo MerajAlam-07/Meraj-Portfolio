@@ -1,6 +1,7 @@
 import React from 'react'
 import HTML from '../assets/icons/html.png';
 import CSS from '../assets/icons/css.png';
+import Bootstrap from '../assets/icons/bootstrap.jpg';
 import JavaScript from '../assets/icons/javascript.png';
 import ReactImg from '../assets/icons/react.png';
 import FireBase from '../assets/icons/firebase.png';
@@ -27,6 +28,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={CSS} alt="Css icon" />
                   <p className='my-4'>CSS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Bootstrap} alt="Css icon" />
+                  <p className='my-4'>BOOTSTRAP</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />

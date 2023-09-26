@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <div className="w-full max-w-7xl">
-      <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
+      <div className="md:flex items-center justify-between py-4 md:px-10 px-7 cursor-pointer" >
         {/* logo section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
           <span className="text-primary hover:text-white">MD MERAJ ALAM</span>

@@ -14,7 +14,7 @@ const Projects = () => {
       technology:
         "React js, Tailwindcss,React-Router-Dom, Redux, Context Api, Firebase, Razorpay",
       github: "https://github.com/MerajAlam-07/skeletion-api-loading",
-      demo: "https://merajalam-07.github.io/Meraj-Portfolio",
+      demo: "https://e-commerse-f419c.web.app/",
     },
 
     {
@@ -37,7 +37,7 @@ const Projects = () => {
       technology:
         "React js, Axios, Random Api,  Joe Schome Api,  React loading Skeleton",
       github: "https://github.com/MerajAlam-07/skeletion-api-loading",
-      demo: "https://merajalam-07.github.io/skeletion-api-loading",
+      demo: "https://skeletion-api-loading.web.app",
     },
   ];
 
@@ -78,7 +78,7 @@ const Projects = () => {
                 </h5>
                 <p className=" text-white mt-1">{technology}</p>
 
-                <div className="mt-5">
+                <div className="mt-5 flex ">
                   <a
                     href={github}
                     className="btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary"
@@ -87,9 +87,9 @@ const Projects = () => {
                   </a>
                   <a
                     href={demo}
-                    className="btn outline py-1.5 px-9 rounded border-none ml-5 text-white "
+                    className="btn outline py-1.5 px-9 rounded border-none ml-9 text-white "
                   >
-                    Live Project
+                    Live 
                   </a>
                 </div>
               </div>
