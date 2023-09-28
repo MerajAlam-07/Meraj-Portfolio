@@ -14,7 +14,7 @@ const Footer = () => {
         <p className="hidden sm:block">Designed by @meraj</p>
       </div>
                        {/* social media */} 
-
+{/* 
       <div className="flex mb-5 justify-center md:justify-start ">
         <a
           href=""
@@ -47,7 +47,7 @@ const Footer = () => {
         >
           <img src={email} alt="" />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
