@@ -21,21 +21,22 @@ const Contact = () => {
   return (
     <div className="md:px-10 px-7 my-10" id="contact">
       <div className="flex flex-col md:flex-row">
+
         {/* text and icons */}
         <div className="md:w-1/2">
           <h1 className="text-primary font-semibold text-3xl mt-16">
             Connect with me:
           </h1>
-          <p className="my-3 text-white md:w-3/4 leading-[2]">
+          {/* <p className="my-3 text-white md:w-3/4 leading-[2]">
             Satisfied with me?
-          </p>
+          </p> */}
           <p className="my-2 text-white md:w-3/4 leading-[2]">
-            Please contact me :- +918051203988
+             Contact me :- +918051203988
           </p>
 
           {/* social icons */}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center ">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center  text-slate-500">
             <article>
               <MdOutlineEmail />
 
@@ -48,7 +49,7 @@ const Contact = () => {
               </a>
             </article>
           </div>
-          <article>
+          <article className=" text-slate-500">
             <BsWhatsapp />
 
             <h4>Whatsapp</h4>
@@ -60,30 +61,10 @@ const Contact = () => {
             </a>
           </article>
 
-          {/* <div className=" flex justify-center items-center p-1 ">
-         <article >
-          <MdOutlineEmail />
-        
-          <h4>Email</h4>
-          <h5>mailmerajgrd@gmail.com</h5>
-          <a href="mailto:mailmerajgrd@gmail.com" className="btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary " >Send Message</a>
-        </article>
-        </div>
-        <div className="  flex justify-center items-center  p-1 rounded mt-2">
-       
-        <article>
-        <BsWhatsapp/>
-          <h4>Whatsapp</h4>
-          <h5>80******88</h5>
-          <a  href="https://wa.me/918051203988" > Send Message</a>
-        </article>
-      
-      
- </div> */}
-
         </div>
 
-        {/* form */}
+            {/* form */}
+
         <div className="md:w-1/2">
           <p className="mt-16 text-white text-2xl mb-6">Contact me :</p>
           <form ref={form} onSubmit={sendEmail}>
@@ -104,9 +85,10 @@ const Contact = () => {
               id="message"
               cols="54"
               rows="4"
-              className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded mb-2"
               placeholder="Message:"
-            ></textarea>
+              className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded mb-2" 
+            >
+            </textarea>
 
             <button className="btn transition-all duration-500 bg-primary py-2 px-12 rounded text-white hover:bg-white hover:text-primary block">
               Send

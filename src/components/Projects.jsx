@@ -47,7 +47,8 @@ const Projects = () => {
         Featured projects:
       </h1>
       <p className="my-3 text-white md:w-3/4 leading-[2]">
-        I have worked on many projects over the course of being a Web Developer.
+        {/* I have worked on many projects over the course of being a Web Developer. */}
+        I have worked on many projects being a Frontend Developer.
         Here are a few of my projects
       </p>
 

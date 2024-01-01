@@ -1,6 +1,6 @@
 import React from 'react';
-import meraj from '../assets/meraj2.png'
-import Resum from '../assets/Resume.pdf'
+import M_1 from '../assets/M_1.jpg'
+import Resum from '../assets/Meraj_alam.pdf'
 
 const Home = () => {
     return (
@@ -21,7 +21,7 @@ const Home = () => {
                                          {/* img */}
                     <div className='order-first md:order-last relative'>
                         <img className='rounded-full w-[450px] h-[450px]'
-                        src={meraj} alt="" />
+                        src={M_1} alt="" />
                     </div>
                 </div>
             </div>
