@@ -13,8 +13,8 @@ const Projects = () => {
       tools: "Technology used :-",
       technology:
         "React js, Tailwindcss,React-Router-Dom, Redux, Context Api, Firebase, Razorpay",
-      github: "https://github.com/MerajAlam-07/skeletion-api-loading",
-      demo: "https://e-commerse-f419c.web.app/",
+      github: "https://github.com/MerajAlam-07/E-commerce",
+      demo: "https://e-commerse-f419c.web.apploading/",
     },
 
     {
